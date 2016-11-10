@@ -24,8 +24,13 @@ $.ajax({
     })
 
     .then(function (user) {
-      var html = markdown.toHTML(atob(result.content))
-      html = '<img src="' + user.avatar_url + '" style="float:left; max-height: 100px; max-width: 100px" />' + html
+      var html = '<div class="member">';
+      html += '<div class="profile-img-cont"><img class="profile-img" src="' + user.avatar_url + '"></div>';
+      html += '<div class="profile-description">' + markdown.toHTML(atob(result.content)) + '</div>';
+      //console.log(markdown.toHTML(atob(result.content)));
+      //console.log(markdown.toHTML(atob(result.content)));
+
+      html += '</div>'
       return $('#content').append(html)
     })
   })
