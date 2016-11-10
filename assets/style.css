@@ -1,0 +1,61 @@
+.profile-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profile-img-cont {
+  max-width: 150px;
+  max-height: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.profile-description {
+  display: inline-block;
+  max-width: 80%;
+}
+
+.member{
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 0;
+}
+.title {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.profile-description img{
+  display: none;
+}
+
+@media (max-width: 778px) {
+  .profile-img {
+    max-width: 200px;
+    max-height: 200px;
+
+  }
+
+  .profile-img-cont {
+    max-width: 100%;
+    max-height: 100%;
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  .profile-description {
+    display: inline-block;
+    min-width: 100%;
+    }
+
+  h1 {
+    text-align: center;
+  }
+
+}
