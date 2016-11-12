@@ -27,8 +27,6 @@ $.ajax({
       var html = '<div class="member">';
       html += '<div class="profile-img-cont"><img class="profile-img" src="' + user.avatar_url + '"></div>';
       html += '<div class="profile-description">' + markdown.toHTML(atob(result.content)) + '</div>';
-      //console.log(markdown.toHTML(atob(result.content)));
-      //console.log(markdown.toHTML(atob(result.content)));
 
       html += '</div>'
       return $('#content').append(html)
