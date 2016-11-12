@@ -26,7 +26,7 @@ $.ajax({
     })
 
     .then(function (user) {
-      var html = '<div class="member col-md-3">';
+      var html = '<div class="contributor">';
       html += '<div class="profile-img-cont"><img class="profile-img" src="' + user.avatar_url + '"></div>';
       html += '<div class="profile-description">' + markdown.toHTML(atob(result.content)) + '</div>';
 
