@@ -1,3 +1,9 @@
+body {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .profile-img {
   max-width: 100%;
   max-height: 100%;
