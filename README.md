@@ -13,3 +13,17 @@ The source code is fairly simple: [assets/app.js](assets/app.js).
 This demo is using [jQuery](http://jquery.com/) for DOM access and AJAX requests
 as well as [markdown.js](https://github.com/evilstreak/markdown-js) for
 Markdown-to-HTML parsing.
+
+## instructions
+
+Clone the repository:
+`git clone git@github.com:gr2m/github-community-list.git`
+
+Change into that directory:
+`cd github-community-list`
+
+Run a server:
+`python -m SimpleHTTPServer 8000`
+
+Open in browser:
+`http://localhost:8000`
